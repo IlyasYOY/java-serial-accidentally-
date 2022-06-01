@@ -1,0 +1,7 @@
+FROM openjdk:11
+
+WORKDIR /opt/
+
+COPY app-11.jar app.jar
+
+CMD [ "java", "-jar", "-XX:+PrintGCDetails",  "app.jar"]

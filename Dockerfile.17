@@ -1,0 +1,7 @@
+FROM openjdk:17
+
+WORKDIR /opt/
+
+COPY app-17.jar app.jar
+
+CMD [ "java", "-jar", "-XX:+PrintGCDetails",  "app.jar"]
