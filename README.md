@@ -37,3 +37,5 @@ docker run -m 1000MB --cpus=1 java-11-test # Serial
 ```
 
 Подробнее можно почитать [тут](https://habr.com/en/company/hh/blog/450954/).
+
+PS. В репозитории образы **JAR** собранные мной под **AMD64**
