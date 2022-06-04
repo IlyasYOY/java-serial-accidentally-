@@ -12,7 +12,7 @@ plugins {
     id 'java'
 }
 
-def javaVersion = 17
+def javaVersion = 11
 
 java {
     sourceCompatibility = javaVersion
